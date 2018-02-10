@@ -10,6 +10,8 @@ namespace Stuff.App
     {
         static void Main(string[] args)
         {
+            var name = Console.ReadLine();
+            var parsedName = new NameParser().Parse(name);
         }
     }
 }
